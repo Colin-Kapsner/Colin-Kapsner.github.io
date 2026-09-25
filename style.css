@@ -1,0 +1,149 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #d1d5db;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #111827;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main page content */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+/* Portfolio sections */
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #1f2937;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    color: #374151;
+}
+
+
+/* Regular links */
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+
+/* Artifact/download buttons */
+.button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+
+/* Makes the site work better on phones */
+@media (max-width: 700px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
