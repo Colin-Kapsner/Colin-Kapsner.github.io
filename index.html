@@ -3,30 +3,131 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Colin Kapsner | Computer Science ePortfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Colin Kapsner</h1>
-    <h2>Computer Science ePortfolio</h2>
+    <!-- Page Header -->
+    <header>
+        <h1>Colin Kapsner</h1>
+        <h2>Computer Science ePortfolio</h2>
+    </header>
 
-    <p>
-        Welcome to my Computer Science ePortfolio. This portfolio demonstrates
-        my growth throughout the Computer Science program and highlights my
-        work in software design and engineering, algorithms and data structures,
-        and databases.
-    </p>
 
-    <h2>Portfolio</h2>
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#software-design">Software Design</a>
+        <a href="#algorithms">Algorithms</a>
+        <a href="#databases">Databases</a>
+    </nav>
 
-    <ul>
-        <li>Professional Self-Assessment</li>
-        <li>Code Review</li>
-        <li>Software Design and Engineering</li>
-        <li>Algorithms and Data Structures</li>
-        <li>Databases</li>
-    </ul>
+
+    <main>
+
+        <!-- About / Professional Self-Assessment -->
+        <section id="about">
+            <h2>Professional Self-Assessment</h2>
+
+            <p>
+                Welcome to my Computer Science ePortfolio. This portfolio
+                demonstrates my growth throughout the Computer Science program.
+            </p>
+
+            <p>
+                My primary career interest is software development, with a
+                particular interest in game development. Throughout the program,
+                I have gained experience working with multiple programming
+                languages, development environments, databases, algorithms,
+                and software design practices.
+            </p>
+        </section>
+
+    
+
+        <!-- Software Design and Engineering -->
+        <section id="software-design">
+            <h2>Software Design and Engineering</h2>
+
+            <h3>Inventory Management Android Application</h3>
+
+            <p>
+                For my first enhancement, I focused on improving the software
+                design and organization of my Android inventory management
+                application. The focus of this enhancement was to separate responsibilities within
+                the application and improve the general user experience, as well as prepare the app
+                for future enhancements.
+            </p>
+
+            <p>
+                Improvements included creating an InventoryItem model,
+                separating login and inventory responsibilities, improving
+                input validation and navigation, and restructuring the
+                inventory display using RecyclerView.
+            </p>
+
+            <a class="button" href="MobileArchitectProject.zip">
+                Original Artifact
+            </a>
+
+            <a class="button" href="MobileArchitectProjectEnhanced1.zip">
+                Enhanced Artifact
+            </a>
+        </section>
+
+
+        <!-- Algorithms and Data Structures -->
+        <section id="algorithms">
+            <h2>Algorithms and Data Structures</h2>
+
+            <h3>Inventory Search and Sorting</h3>
+
+            <p>
+                For my second enhancement, I added searching and sorting
+                functionality to the inventory application. Inventory records
+                are managed using an ArrayList of InventoryItem objects.
+            </p>
+
+            <p>
+                The application uses linear search to find inventory items by
+                name and a custom merge sort implementation to sort items by
+                name or quantity in ascending or descending order. The
+                algorithms were separated into an InventoryAlgorithms class
+                to keep algorithm logic separate from the user interface.
+            </p>
+
+            <a class="button" href="MobileArchitectProjectEnhanced2.zip">
+                Enhanced Artifact
+            </a>
+        </section>
+
+
+        <!-- Databases -->
+        <section id="databases">
+            <h2>Databases</h2>
+
+            <h3>Database Enhancement</h3>
+
+            <p>
+                This section will contain the database enhancement for the
+                inventory management application.
+            </p>
+
+            <!-- Database artifact will be added after Enhancement Three -->
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Colin Kapsner | Computer Science ePortfolio</p>
+    </footer>
 
 </body>
 
